@@ -10,7 +10,7 @@ $email=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
 
-ini_set($email, $subject, $message, "From:".$from);
+mail($email, $subject, $message, "From:".$from);
 
 print "your message has been sent to: </br>$email</br>$subject</br>$message</p>";
 
