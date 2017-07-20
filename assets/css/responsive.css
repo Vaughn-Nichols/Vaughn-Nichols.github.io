@@ -1,5 +1,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   /* banner Start */
+  
+
   #header .banner {
     margin: 0px;
   }
@@ -16,6 +18,7 @@
   }
   #works .grid-left .large {
     width: 458px;
+	height: 100%;
   }
   #works .grid-left .grid-box {
     width: 229px;
@@ -119,9 +122,16 @@
   #works .grid-right {
     width: 100%;
   }
+  @media (min-width: 320px) and (max-width: 500px) {
+	
+	.#works .grid-right .grid-box.large {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
   #works .grid-right .grid-box.large {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   #works .grid-right .grid-box {
     width: 100%;
