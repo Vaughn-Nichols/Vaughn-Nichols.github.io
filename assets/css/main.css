@@ -238,6 +238,13 @@ img {
 }
 /* Header Section End */
 /* Works Section Start */
+/*@media screen and (max-width: 500px {
+	
+	div.mobile-collapse {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}*/
 #works {
   background: #ffffff;
   width: 100%;
